@@ -52,6 +52,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - So far I have made the base model of the robotic arm which doesn't have the most amount of mobility as the claw is stuck in that one position making it less applicable   
 ## Challenges
 - flimsy base piece broke and was later replaced.
+- One of the servo stop funtioning because it was burnt out 
 - The big bearing for the platform was to rough for the small mg90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and smoothened out the bearing enough for the servo to move it around.
 ## Further improvements
 - To further improve the robotic arm, I plan on improving the the mobility of the claw by adding another servo that rotates the claw. I also plan on adding a pi camera for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects. 
