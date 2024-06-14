@@ -1,4 +1,4 @@
-# Project Name Here
+q# 3 Joint Robot Arm
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -47,16 +47,15 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm is able to pick up and drop small light weight objects and move an object from one place to another using the bottom servo which rotates the bottom platform with a large bearing.
-- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an arduino nano that instructs the servos on the arm as per the input given to it. 
+- The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing.
+- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
 ## Challenges
-- flimsy base piece broke and was later replaced.
-- One of the servo stop funtioning because it was burnt out 
-- The big bearing for the platform was to rough for the small mg90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and smoothened out the bearing enough for the servo to move it around.
+- The flimsy base piece broke and was later replaced.
+- One of the servos stopped functioning because it was burnt out 
+- The big bearing for the platform was too rough for the small MG90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and made the bearing smooth enough for the servo to move the arm around.
 ## Further improvements
-- To make the claw be able to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better postiion itself to pick up different items. 
-- I also plan on connecting a Rasberry pi and a pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
+-For the claw to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better position itself to pick up different items. 
+- I also plan on connecting a Rasberry Pi and a Pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
   
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
