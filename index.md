@@ -55,7 +55,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - One of the servos stopped functioning because it was burnt out 
 - The big bearing for the platform was too rough for the small MG90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and made the bearing smooth enough for the servo to move the arm around.
 ## Further improvements
--For the claw to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better position itself to pick up different items. 
+- For the claw to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better position itself to pick up different items.
 - I also plan on connecting a Rasberry Pi and a Pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
   
 # Schematics 
@@ -83,9 +83,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 3 Joint Robotic Arm| Used as the base model for the robotic arm | $50 | <a href=" https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
+| Servo Shield | Replace orginal shield to use 9v batteries | $ | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/gEROH1a)"> Link </a> |
+| 9V batteries | Used to power the robotic arm | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Screwdriver Kit | Used to assemble the robotic arm | $7.99 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
+| 9V Barrel Jack | Used to connect the 9V battery to the servo shield | $5.99 | <a href="https://a.co/d/hVp96Vq"> Link </a> |
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
