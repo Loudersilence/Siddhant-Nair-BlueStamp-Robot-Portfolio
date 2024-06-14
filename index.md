@@ -49,13 +49,15 @@ For your second milestone, explain what you've worked on since your previous mil
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm is able to pick up and drop small light weight objects and move an object from one place to another using the bottom servo which rotates the bottom platform with a large bearing.
-- So far I have made the base model of the robotic arm which doesn't have the most amount of mobility as the claw is stuck in that one position making it less applicable   
+- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an arduino nano that instructs the servos on the arm as per the input given to it. 
 ## Challenges
 - flimsy base piece broke and was later replaced.
 - One of the servo stop funtioning because it was burnt out 
 - The big bearing for the platform was to rough for the small mg90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and smoothened out the bearing enough for the servo to move it around.
 ## Further improvements
-- To further improve the robotic arm, I plan on improving the the mobility of the claw by adding another servo that rotates the claw. I also plan on adding a pi camera for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects. 
+- I plan on improving the the mobility of the claw by adding another servo that rotates the claw.
+- I also plan on adding a pi camera for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
+  
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
