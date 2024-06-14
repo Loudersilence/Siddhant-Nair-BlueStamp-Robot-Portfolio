@@ -55,7 +55,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - One of the servo stop funtioning because it was burnt out 
 - The big bearing for the platform was to rough for the small mg90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and smoothened out the bearing enough for the servo to move it around.
 ## Further improvements
-- I plan on improving the the mobility of the claw by adding another servo that rotates the claw.
+- To make the claw be able to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better postiion itself to pick up different items. 
 - I also plan on connecting a Rasberry pi and a pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
   
 # Schematics 
