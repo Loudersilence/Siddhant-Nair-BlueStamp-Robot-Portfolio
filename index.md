@@ -56,7 +56,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - The big bearing for the platform was to rough for the small mg90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and smoothened out the bearing enough for the servo to move it around.
 ## Further improvements
 - I plan on improving the the mobility of the claw by adding another servo that rotates the claw.
-- I also plan on adding a pi camera for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
+- I also plan on connecting a Rasberry pi and a pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
   
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
