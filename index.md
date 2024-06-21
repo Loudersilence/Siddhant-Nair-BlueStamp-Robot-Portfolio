@@ -53,8 +53,8 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="1083" height="609" src="https://www.youtube.com/embed/9bqB15PK2Zs?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Siddhant N  First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-- The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing.
-- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
+  
+- The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
 ## Challenges
 - The flimsy base piece broke and was later replaced.
 - One of the servos stopped functioning because it was burnt out 
