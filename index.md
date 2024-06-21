@@ -36,18 +36,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my second milestone, I implemented a Raspberry Pi and a Pi camera into my project. I added the Pi and the Pi camera so that the claw can have the ability to identify specific objects and to pick up specific items.
-So far I have been able to establish the serial communication between the Arduino Nano and the Raspberry Pi. I have also been able to get the Pi camera and the object recognition working. 
+For my second milestone, I implemented a Raspberry Pi and a Pi camera into my project. I added the Pi and the Pi camera so that the claw can have the ability to identify specific objects and pick up specific items. So far I have established the serial communication between the Arduino Nano and the Raspberry Pi. I have also been able to get the Pi camera and object recognition working.
+
 
 ## Challenges
-- Struggling to get the Arduino IDE to work on the raspberry pi. To solve the issue, I did some research and with the help of my instructor I figured out that I 
-  had the wrong version of the IDE and instantly swtiched to the Linux 64arm.
-- Downloading the open cv for the object detection. I was not able to download a specific package required for the object detection because it wasn't recognized 
-  on the latest os of the raspberry pi. To fix this I flashed my micro sd to an older buster os specifically the one released in may of 2021. This seemed to fix 
-  my problem I was able to get object detection working.
+- Struggling to get the Arduino IDE to work on the raspberry pi. To solve the issue, I did some research, and with the help of my instructor Katie, I figured out that I had the wrong version of the IDE and instantly switched to the Linux 64arm.
+- Downloading the open CV for object detection. I was not able to download a specific package required for object detection because it wasn't recognized on the latest OS of the Raspberry Pi (bullseye). To fix this, I flashed my micro SD to an older buster, specifically the one released in May of 2021. This seemed to fix my problem I was able to get object detection working.
 
 ## Steps towards final milestone
-- To bring this robot together, I plan on integrating the raspberry pi and the camera into the arm so that they can work together to complete certain tasks.
+- To bring this robot together, I plan on integrating the Raspberry Pi and the camera into the arm so that they can work together to complete certain tasks.
 - I may also add a rubber sleeve to the claws to be able to grip items better
 
 # First Milestone
