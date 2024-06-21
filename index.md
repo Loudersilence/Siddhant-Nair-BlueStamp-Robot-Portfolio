@@ -92,6 +92,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Servo Shield | Replace orginal shield to use 9v batteries | $10.99 | <a href="https://a.co/d/gEROH1a"> Link </a> |
 | 9V batteries | Used to power the robotic arm | $8.99 | <a href="https://a.co/d/fZLAYWA"> Link </a> |
 | Screwdriver Kit | Used to assemble the robotic arm | $7.99 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
+| Raspberry Pi 4B | Used connect the pi camera to the arm and for object recognition | $105 | <a href="https://a.co/d/0bOvawIx"> Link </a> |
+| Pi camera | used for object recognition | $10 | <a href="https://a.co/d/0j8dtRFs"> Link </a> |
+| 9V Barrel Jack | Used to connect the 9V battery to the servo shield | $5.99 | <a href="https://a.co/d/hVp96Vq"> Link </a> |
 | 9V Barrel Jack | Used to connect the 9V battery to the servo shield | $5.99 | <a href="https://a.co/d/hVp96Vq"> Link </a> |
 
 
