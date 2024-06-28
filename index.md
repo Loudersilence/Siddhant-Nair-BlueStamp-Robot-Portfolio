@@ -93,4 +93,4 @@ The project I have chosen is the 3 joint robot arm which uses a total of 4 servo
 This was my main resource for majority of the project
 - [Object Recognition tutorial](https://core-electronics.com.au/guides/object-identify-raspberry-pi/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
