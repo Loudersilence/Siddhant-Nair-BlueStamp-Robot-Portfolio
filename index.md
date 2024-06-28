@@ -19,7 +19,7 @@ You should comment out all portions of your portfolio that you have not complete
 # Final Milestone
 In my second milestone, I said I was going to get the arm to do certain tasks like identifying a specific object and then commanding it to pick it up. For my third and final milestone, I have come close to that goal. So far, the robotic arm is now fully functioning; the robot can identify objects using the Pi camera and the Coco library which is a pre-trained model. For this task, I have set up the code so that when the camera identifies a target object, it triggers a set of commands which the Raspberry Pi sends over to the Arduino Nano using serial communication. The code instructs the arm to pick up the object and drop it in another location. In my milestone video, the trigger is a person or my arm. So when I wave my hand across the camera the object recognition software recognizes it as a person which then triggers the set of commands.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -38,7 +38,7 @@ This project has taught me to look at problems through multiple perspectives for
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
 For my second milestone, I implemented a Raspberry Pi and a Pi camera into my project. I added the Pi and the Pi camera so that the claw can have the ability to identify specific objects and pick up specific items. So far I have established the serial communication between the Arduino Nano and the Raspberry Pi. I have also been able to get the Pi camera and object recognition working using the coco library to be able to identify a few different items.
 
 
