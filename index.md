@@ -21,7 +21,7 @@ In my second milestone, I said I was going to get the arm to do certain tasks li
 
 ## Challenges
 - Batteries were not reliable or safe. The servos weren't functioning properly because they weren't receiving enough power and one of the batteries exploded while not even being plugged in so with the help of the instructors, I was able to switch to a power supply that plugged into the wall.
-- <img src="images/battery.jpg" alt=" Battery " width="500" length="300" />
+- 
 - Setting up the code for object recognition and serial communication. To be able to trigger a set of commands on an Arduino based on results from a Pi camera, I had to write a Python code that implemented object recognition and serial communication. It was a struggle because no matter what I did, the code would not use the results of the object recognition. To fix this I used the help of Chat GPT. GPT was able to point out my mistakes and suggested changes that started using the results of the Object recognition effectively which finally started to trigger the commands.
 - Getting the Arduino to process the incoming commands. When the Pi first sent the commands, I wasn't sure if the Arduino was receiving the commands, but after looking at the serial monitor after some and the blinking rx light on the Nano, I was able to verify that the Arduino was receiving the commands.
 -  <img src="images/Serial monitor.png" alt=" Serial monitor" width="660" length="300" />
