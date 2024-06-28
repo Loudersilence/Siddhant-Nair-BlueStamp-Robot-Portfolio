@@ -72,7 +72,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 [My arduino code](Code/Arm.ino)<br/>
-[source file for the arduino code](Code/src)
+[source file for the arduino code](Code/src)<br/>
 [My Python](Code/serial.py)
 
 
