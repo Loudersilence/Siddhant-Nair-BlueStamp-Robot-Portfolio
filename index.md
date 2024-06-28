@@ -10,7 +10,7 @@ My project is the 3 joint robotic arm. The arm has the ability to use object rec
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](images/IMG_4733.png)
   
 # Final Milestone
 In my second milestone, I said I was going to get the arm to do certain tasks like identifying a specific object and then commanding it to pick it up. For my third and final milestone, I have come close to that goal. So far, the robotic arm is now fully functioning; the robot can identify objects using the Pi camera and the Coco library which is a pre-trained model. For this task, I have set up the code so that when the camera identifies a target object, it triggers a set of commands which the Raspberry Pi sends over to the Arduino Nano using serial communication. The code instructs the arm to pick up the object and drop it in another location. In my milestone video, the trigger is a person or my arm. So when I wave my hand across the camera the object recognition software recognizes it as a person which then triggers the set of commands.
