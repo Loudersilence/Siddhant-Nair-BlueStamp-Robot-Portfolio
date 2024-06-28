@@ -68,8 +68,7 @@ The project I have chosen is the 3 joint robot arm which uses a total of 4 servo
 - I also plan on connecting a Rasberry Pi and a Pi camera to the robot arm for color and object detection so the arm can recognize objects around it and hopefully be commanded to pick up specific objects.
   
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
+images/schematic.png<img src="images/schematic.png" alt="Schematic " width="600" length="400" />
 # Code
 [My arduino code](Code/Arm.ino)<br/>
 [source file for the arduino code](Code/src)<br/>
