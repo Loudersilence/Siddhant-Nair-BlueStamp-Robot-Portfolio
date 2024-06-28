@@ -72,6 +72,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 [My arduino code](Code/Arm.ino)<br/>
+[source file for the arduino code](Code/src)
 [My Python](Code/serial.py)
 
 
@@ -85,7 +86,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Servo Shield | Replace orginal shield to use 9v batteries | $10.99 | <a href="https://a.co/d/gEROH1a"> Link </a> |
 | 9V batteries | Used to power the robotic arm | $8.99 | <a href="https://a.co/d/fZLAYWA"> Link </a> |
 | Screwdriver Kit | Used to assemble the robotic arm | $7.99 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
-| Raspberry Pi 4B | Used connect the pi camera to the arm and for object recognition | $105 | <a href="https://a.co/d/0bOvawIx"> Link </a> |
+| Raspberry Pi 4B | Used connect the pi camera to the arm and for object recognition | $93 | <a href="https://a.co/d/0bOvawIx"> Link </a> |
 | Pi camera | used for object recognition | $10 | <a href="https://a.co/d/0j8dtRFs"> Link </a> |
 | 9v power supply | Used to replace the 9V battery and power the servo shield | $13.99 | <a href="https://a.co/d/0dFUwqo2"> Link </a> |
 | 3.28ft pi camera ribbon cable | extended cable so that the arm can move freely while the camera is attached | $5.99 | <a href="https://a.co/d/0ca8Yb6N"> Link </a> |
@@ -94,7 +95,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Object Recognition tutorial](https://core-electronics.com.au/guides/object-identify-raspberry-pi/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
