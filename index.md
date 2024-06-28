@@ -2,11 +2,7 @@
 
 My project is the 3 joint robotic arm. The arm has the ability to use object recognition software with the Pi and the Pi camera to identify certain objects and then can be used to trigger a set of commands. This project has had a lot of ups and downs but now the only way to go is up as the arm works flawlessyly. The part of the project that had the most difficulties was setting up the code for serial communication so that the servos connected to the arduino nano could listen to the commands from the Pi. You can read more about it below!
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -25,12 +21,12 @@ In my second milestone, I said I was going to get the arm to do certain tasks li
 
 ## Challenges
 - Batteries were not reliable or safe. The servos weren't functioning properly because they weren't receiving enough power and one of the batteries exploded while not even being plugged in so with the help of the instructors, I was able to switch to a power supply that plugged into the wall.
--  <img src="images/battery.jpg" alt="Battery" width="200" length="300" /> 
+- <img src="images/battery.jpg" alt=" Battery " width="500" length="300" />
 - Setting up the code for object recognition and serial communication. To be able to trigger a set of commands on an Arduino based on results from a Pi camera, I had to write a Python code that implemented object recognition and serial communication. It was a struggle because no matter what I did, the code would not use the results of the object recognition. To fix this I used the help of Chat GPT. GPT was able to point out my mistakes and suggested changes that started using the results of the Object recognition effectively which finally started to trigger the commands.
 - Getting the Arduino to process the incoming commands. When the Pi first sent the commands, I wasn't sure if the Arduino was receiving the commands, but after looking at the serial monitor after some and the blinking rx light on the Nano, I was able to verify that the Arduino was receiving the commands.
--  <img src="images/Serial monitor.png" alt=" Serial monitor" width="600" length="300" />
+-  <img src="images/Serial monitor.png" alt=" Serial monitor" width="660" length="300" />
 The next step was to see if the Arduino understood the commands and to my surprise, the Arduino did not because I did not identify the servos correctly in the processcommand code. I had each servo labelled as a specific movement, for example, servo 1 was arm.right and servo 2 was arm.up. To fix this, I again used the help of GPT which suggested looking through the source file that the code relies on(specifically the Cokoinoarm.h file). In that file I was able to find the appropriate wording needed to classify each servo which was arm.servo1, arm.servo2 and so on. With this change, the Arduino was finally able to run through and understand the commands as you can in the video.
-- The Pi camera cable was too short. For the arm to recognize objects that are in its field of view, I planned on attaching the camera to the arm right below the claw. The camera ribbon cable was too short for the arm to rotate around freely. To fix this, I replaced the short cable with a much longer ribbon cable which was much easier to work around. 
+- The Pi camera cable was too short. For the arm to recognize objects that are in its field of view, I planned on attaching the camera to the arm right below the claw. The camera ribbon cable was too short(15cm or 5.9 inches) for the arm to rotate around freely. To fix this, I replaced the short cable with a much longer ribbon cable(100cm or 39.4 inches) which was much easier to work around. 
 
 ## Reflection & Future improvements
 This project has taught me to look at problems through multiple perspectives for the best solution for example when I was having trouble with. This was also my first time working with a Raspberry Pi or any form of coding in a project. While it was a struggle I am starting to get a hang of it. The project also helped me learn code in project-based learning which resonates with me a lot more than other forms of learning like the online bootcamps. The project has also allowed me to utilize my previous skills from the first tech challenge(FTC) and form new skills like implementing code into mechanical projects which I can use in the future to make projects that are focused on both aspects equally compared to my past projects being purely mechanical. Speaking of future projects, I plan on continuing this robot arm as well because there are some modifications I want to add to the arm and I never really got to complete my original modifications. After I finish my original modification, one of the new modifications I am considering is giving the arm the ability to be able to take speech commands so it can be controlled by voice and specifically be instructed to pick up one item over the other.
