@@ -71,7 +71,7 @@ The project I have chosen is the 3 joint robot arm which uses a total of 4 servo
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-[My arduino code](Code/Arduino_code/Arm.ino)<br/>
+[My arduino code](Code/Arm.ino)<br/>
 [My Python](Code/serial.py)
 
 
