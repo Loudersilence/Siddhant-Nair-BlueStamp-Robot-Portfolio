@@ -1,6 +1,6 @@
 # 3 Joint Robotic Arm
 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is the 3 joint robotic arm. The arm has the ability to use object recognition software with the Pi and the Pi camera to identify certain objects and then can be used to trigger a set of commands. This project has had a lot of ups and downs but now the only way to go is up as the arm works flawlessyly. The part of the project that had the most difficulties was setting up the code for serial communication so that the servos connected to the arduino nano could listen to the commands from the Pi. You can read more about it below!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -39,12 +39,11 @@ This project has taught me to look at problems through multiple perspectives for
 # Second Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="560" src="https://www.youtube.com/embed/00VdxgJGQjs" title="Siddhant N. Second Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
 For my second milestone, I implemented a Raspberry Pi and a Pi camera into my project. I added the Pi and the Pi camera so that the claw can have the ability to identify specific objects and pick up specific items. So far I have established the serial communication between the Arduino Nano and the Raspberry Pi. I have also been able to get the Pi camera and object recognition working using the coco library to be able to identify a few different items.
+
+
+<iframe width="660" height="560" src="https://www.youtube.com/embed/00VdxgJGQjs" title="Siddhant N. Second Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ## Challenges
@@ -58,16 +57,15 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
   
 
 # First Milestone
+The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="560" src="https://www.youtube.com/embed/9bqB15PK2Zs?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Siddhant N  First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="660" height="560" src="https://www.youtube.com/embed/9bqB15PK2Zs?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Siddhant N  First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
-- The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
+
 ## Challenges
 - The flimsy base piece broke. I tried to use superglue but that was not effective since the base piece holds the weight of the whole arm. The peice was replaced instead.
 - <img src="images/broken base piece.jpg" alt="Broken Base piece" width="300" />
-- One of the servos stopped functioning because it was burnt out 
+- One of the servos stopped functioning because it was burnt out. It was later replaced.
 - The big bearing for the platform was too rough for the small MG90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and made the bearing smooth enough for the servo to move the arm around.
 ## Further improvements
 - For the claw to pick up a variety of differently shaped items, I plan on adding another servo to the arm that rotates the claw so it can better position itself to pick up different items.
@@ -104,13 +102,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Screwdriver Kit | Used to assemble the robotic arm | $7.99 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
 | Raspberry Pi 4B | Used connect the pi camera to the arm and for object recognition | $105 | <a href="https://a.co/d/0bOvawIx"> Link </a> |
 | Pi camera | used for object recognition | $10 | <a href="https://a.co/d/0j8dtRFs"> Link </a> |
-| 9V Barrel Jack | Used to connect the 9V battery to the servo shield | $5.99 | <a href="https://a.co/d/hVp96Vq"> Link </a> |
-| 9V Barrel Jack | Used to connect the 9V battery to the servo shield | $5.99 | <a href="https://a.co/d/hVp96Vq"> Link </a> |
+| 9v power supply | Used to replace the 9V battery and power the servo shield | $13.99 | <a href="https://a.co/d/0dFUwqo2"> Link </a> |
+| 3.28ft pi camera ribbon cable | extended cable so that the arm can move freely while the camera is attached | $5.99 | <a href="https://a.co/d/0ca8Yb6N"> Link </a> |
 
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
+- [Object Recognition tutorial](https://core-electronics.com.au/guides/object-identify-raspberry-pi/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
