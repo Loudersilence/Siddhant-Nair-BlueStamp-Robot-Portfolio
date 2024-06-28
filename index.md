@@ -60,7 +60,7 @@ The project I have chosen is the 3 joint robot arm which uses a total of 4 servo
 
 ## Challenges
 - The flimsy base piece broke. I tried to use superglue but that was not effective since the base piece holds the weight of the whole arm. The peice was replaced instead.<br/>
- <img src="images/broken base piece.jpg" alt="Broken Base piece" width="300" />
+
 - One of the servos stopped functioning because it was burnt out. It was later replaced.
 - The big bearing for the platform was too rough for the small MG90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and made the bearing smooth enough for the servo to move the arm around.
 ## Further improvements
