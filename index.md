@@ -17,18 +17,21 @@ You should comment out all portions of your portfolio that you have not complete
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-In my second milestone, I said I was going to get the arm to do certain tasks like identify a s
+## Summary
+In my second milestone, I said I was going to get the arm to do certain tasks like identifying a specific object and then commanding it to pick it up. For my third and final milestone, I have come close to that goal. So far, the robotic arm is now fully functioning; the robot can identify objects using the Pi camera and the Coco library which is a pre-trained model. For this task, I have set up the code so that when the camera identifies a target object, it triggers a set of commands which the Raspberry Pi sends over to the Arduino Nano using serial communication. The code instructs the arm to pick up the object and drop it in another location. In my milestone video, the trigger is a person or my arm. So when I wave my hand across the camera the object recognition software recognizes it as a person which then triggers the set of commands.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+## Challenges
+- Batteries were not reliable or safe. The servos weren't functioning properly because they weren't receiving enough power and one of the batteries exploded while not even being plugged in so with the help of the instructors, I was able to switch to a power supply that plugged into the wall.
+- Setting up the code for object recognition and serial communication. To be able to trigger a set of commands on an Arduino based on results from a Pi camera, I had to write a Python code that implemented object recognition and serial communication. It was a struggle because no matter what I did, the code would not use the results of the object recognition. To fix this I used the help of Chat GPT. GPT was able to point out my mistakes and suggested changes that started using the results of the Object recognition effectively which finally started to trigger the commands.
+- Getting the Arduino to process the incoming commands. When the Pi first sent the commands, I wasn't sure if the Arduino was receiving the commands, but after looking at the serial monitor after some and the blinking rx light on the Nano, I was able to verify that the Arduino was receiving the commands. The next step was to see if the Arduino understood the commands and to my surprise, the Arduino did not because I did not identify the servos correctly in the processcommand code. I had each servo labelled as a specific movement, for example, servo 1 was arm.right and servo 2 was arm.up. To fix this, I again used the help of GPT which suggested looking through the source file that the code relies on(specifically the Cokoinoarm.h file). In that file I was able to find the appropriate wording needed to classify each servo which was arm.servo1, arm.servo2 and so on. With this change, the Arduino was finally able to run through and understand the commands as you can in the video.
+- The Pi camera cable was too short. For the arm to recognize objects that are in its field of view, I planned on attaching the camera to the arm right below the claw. The camera ribbon cable was too short for the arm to rotate around freely. To fix this, I replaced the short cable with a much longer ribbon cable which was much easier to work around. 
 
+## Reflection & Future improvements
+This project has taught me to look at problems through multiple perspectives for the best solution for example when I was having trouble with. This was also my first time working with a Raspberry Pi or any form of coding in a project. While it was a struggle I am starting to get a hang of it. The project also helped me learn code in project-based learning which resonates with me a lot more than other forms of learning like the online bootcamps. The project has also allowed me to utilize my previous skills from the first tech challenge(FTC) and form new skills like implementing code into mechanical projects which I can use in the future to make projects that are focused on both aspects equally compared to my past projects being purely mechanical. Speaking of future projects, I plan on continuing this robot arm as well because there are some modifications I want to add to the arm and I never really got to complete my original modifications. After I finish my original modification, one of the new modifications I am considering is giving the arm the ability to be able to take speech commands so it can be controlled by voice and specifically be instructed to pick up one item over the other.
 
 
 # Second Milestone
@@ -50,6 +53,7 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
 ## Steps towards final milestone
 - To bring this robot together, I plan on integrating the Raspberry Pi and the camera into the arm so that they can work together to complete certain tasks like recognizing and picking up a specific object when instructed.
 - I may also add a rubber sleeve to the claws to be able to grip items better
+  
 
 # First Milestone
 
