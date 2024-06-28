@@ -1,4 +1,5 @@
 # 3 Joint Robotic Arm
+## Siddhant's Bluestamp Engineering Portfolio
 
 My project is the 3 joint robotic arm. The arm has the ability to use object recognition software with the Pi and the Pi camera to identify certain objects and then can be used to trigger a set of commands. This project has had a lot of ups and downs but now the only way to go is up as the arm works flawlessyly. The part of the project that had the most difficulties was setting up the code for serial communication so that the servos connected to the arduino nano could listen to the commands from the Pi. You can read more about it below!
 
