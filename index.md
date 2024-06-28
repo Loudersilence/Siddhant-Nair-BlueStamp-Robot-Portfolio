@@ -8,7 +8,6 @@ My project is the 3 joint robotic arm. The arm has the ability to use object rec
 |:--:|:--:|:--:|:--:|
 | Siddhant N | Mission San Jose High school | Mechanical Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](images/IMG_4733.png)
   
