@@ -25,10 +25,10 @@ In my second milestone, I said I was going to get the arm to do certain tasks li
 
 ## Challenges
 - Batteries were not reliable or safe. The servos weren't functioning properly because they weren't receiving enough power and one of the batteries exploded while not even being plugged in so with the help of the instructors, I was able to switch to a power supply that plugged into the wall.
--  <img src="images/battery.jpg" width="200" length="300" /> 
+-  <img src="images/battery.jpg" alt="Battery" width="200" length="300" /> 
 - Setting up the code for object recognition and serial communication. To be able to trigger a set of commands on an Arduino based on results from a Pi camera, I had to write a Python code that implemented object recognition and serial communication. It was a struggle because no matter what I did, the code would not use the results of the object recognition. To fix this I used the help of Chat GPT. GPT was able to point out my mistakes and suggested changes that started using the results of the Object recognition effectively which finally started to trigger the commands.
 - Getting the Arduino to process the incoming commands. When the Pi first sent the commands, I wasn't sure if the Arduino was receiving the commands, but after looking at the serial monitor after some and the blinking rx light on the Nano, I was able to verify that the Arduino was receiving the commands.
--  <img src="images/Serial monitor.png" width="600" length="300" />
+-  <img src="images/Serial monitor.png" alt=" Serial monitor" width="600" length="300" />
 The next step was to see if the Arduino understood the commands and to my surprise, the Arduino did not because I did not identify the servos correctly in the processcommand code. I had each servo labelled as a specific movement, for example, servo 1 was arm.right and servo 2 was arm.up. To fix this, I again used the help of GPT which suggested looking through the source file that the code relies on(specifically the Cokoinoarm.h file). In that file I was able to find the appropriate wording needed to classify each servo which was arm.servo1, arm.servo2 and so on. With this change, the Arduino was finally able to run through and understand the commands as you can in the video.
 - The Pi camera cable was too short. For the arm to recognize objects that are in its field of view, I planned on attaching the camera to the arm right below the claw. The camera ribbon cable was too short for the arm to rotate around freely. To fix this, I replaced the short cable with a much longer ribbon cable which was much easier to work around. 
 
@@ -66,6 +66,7 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
 - The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
 ## Challenges
 - The flimsy base piece broke. I tried to use superglue but that was not effective since the base piece holds the weight of the whole arm. The peice was replaced instead.
+- <img src="images/broken base piece.jpg" alt="Broken Base piece" width="300" />
 - One of the servos stopped functioning because it was burnt out 
 - The big bearing for the platform was too rough for the small MG90s servo to push around. I fixed this issue by using basic bicycle chain lubricant which worked perfectly and made the bearing smooth enough for the servo to move the arm around.
 ## Further improvements
