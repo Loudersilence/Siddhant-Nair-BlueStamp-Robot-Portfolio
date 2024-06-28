@@ -17,6 +17,7 @@ You should comment out all portions of your portfolio that you have not complete
 ![Headstone Image](logo.svg)
   
 # Final Milestone
+In my second milestone, I said I was going to get the arm to do certain tasks like identify a s
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -34,7 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="996" height="560" src="https://www.youtube.com/embed/00VdxgJGQjs" title="Siddhant N. Second Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="560" src="https://www.youtube.com/embed/00VdxgJGQjs" title="Siddhant N. Second Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
@@ -44,6 +45,7 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
 ## Challenges
 - Struggling to get the Arduino IDE to work on the raspberry pi. To solve the issue, I did some research, and with the help of my instructor Katie, I figured out that I had the wrong version of the IDE. I had the linux 32arm and instantly switched to the Linux 64arm.
 - Downloading the open CV for object detection. I was not able to download the libjasper package required for object detection because it wasn't recognized or wasn't available on the latest OS of the Raspberry Pi (bullseye). To fix this, I flashed my micro SD to an older buster, specifically the one released in May of 2021. This seemed to fix my problem I was able to get object detection working.
+- Editing the code for the object recognition. The tutorial I was using for the object recognition came with a code file that had the script for the object recognition. Unfortunatley that code file didn't work for me so I had to change up the code and the path the code was taking to use the coco library.
 
 ## Steps towards final milestone
 - To bring this robot together, I plan on integrating the Raspberry Pi and the camera into the arm so that they can work together to complete certain tasks like recognizing and picking up a specific object when instructed.
@@ -53,7 +55,7 @@ For my second milestone, I implemented a Raspberry Pi and a Pi camera into my pr
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="1083" height="609" src="https://www.youtube.com/embed/9bqB15PK2Zs?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Siddhant N  First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="560" src="https://www.youtube.com/embed/9bqB15PK2Zs?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Siddhant N  First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
 - The project I have chosen is the 3 joint robot arm which uses a total of 4 servos. The arm can pick up and drop small lightweight objects. The arm can move objects from one place to another using the servo which rotates the bottom platform with the help of a large bearing- So far I have made the base model of the robotic arm which is controlled using two joysticks connected to an Arduino Nano that instructs the servos on the arm as per the input from the joysticks.	 
 ## Challenges
